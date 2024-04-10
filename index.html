@@ -97,5 +97,21 @@
     </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Buat objek XMLHTTPRequest
+            var xhr = new XMLHttpRequest();
+
+            // Tentukan URL tujuan (https://count.cab/hit/855BRt2PNH)
+            var url = "https://count.cab/hit/855BRt2PNH";
+
+            // Konfigurasi permintaan POST
+            xhr.open("POST", url, true);
+            xhr.setRequestHeader("Content-Type", "application/json");
+
+            // Kirim permintaan POST saat halaman dimuat
+            xhr.send(JSON.stringify({}));
+        });
+    </script>
   </body>
 </html>
