@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useEffect, useState } from "react";
-import { ImgModels, ImgResult, imgModels } from "../utils/types.ts";
-import generateImage, { generate as generate_core } from "../utils/hf_img.ts";
+import { ImgModels, ImgResult, imgModels } from "../utils/types";
+import generateImage, { generate as generate_core } from "../utils/hf_img";
 import "../styles/image.css";
 
 // type GeneratedImg = {
